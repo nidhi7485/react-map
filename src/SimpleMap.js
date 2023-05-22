@@ -42,7 +42,7 @@ const SimpleMap = (props) => {
     <Map
       google={props.google}
       zoom={14}
-      style={{ width: '100%', height: '400px' }}
+      style={{ width: '100%', height: '600px' }}
       initialCenter={{ lat: 37.7749, lng: -122.4194 }} // Set your desired initial center
     >
       {markerPositions.map((position, index) => (
